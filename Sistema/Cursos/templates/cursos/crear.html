@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block titulo %}Agrega un nuevo curso{% endblock%}
+{%block contenido %}
+<div class="card">
+    <div class="card-header">
+        Ingrese un curso
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Datos del curso</h4>
+        {% include 'cursos/form.html' %}
+        
+    </div>
+    <div class="card-footer text-muted">
+        
+    </div>
+</div>
+
+{% endblock%}
